@@ -1,0 +1,133 @@
+:root {
+    --dark-cerulean: #124e78;
+    --maastricht-blue: #0b132b;
+    --navy: var(--navy)
+    --yankees-blue: #1C2541;
+    --sea-serpent: #5bc0be;
+    --aquamarine: #6fffe9;
+    --react: azure;
+  }
+
+html{
+    background-image: url('https://vertassets.blob.core.windows.net/image/4986692e/4986692e-8e26-41c6-8581-81829d113fa4/istock_1184804468.jpg');
+    
+}
+
+h1{
+    color: black;
+}
+
+body {
+    margin: 0;
+    font-family: 'Sage';
+    font-weight:100;
+    color: black;
+  }
+
+.container {
+    display: flex;
+    text-indent: 88px;
+    margin-top: 70px;
+    margin-left: 400px;
+   
+    height: 400px;
+    width: 300px;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    opacity: 0.75;
+    background-color: aquamarine; 
+    
+}
+#div2{
+    color: black
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size:xx-large;
+    font-weight: 100;
+    font-family: 'Sage';
+}
+
+.para{
+    display:flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: -150px;
+    margin-right:auto;
+}
+.container2 {
+    display: flex;
+    text-indent: 30px;
+    margin-top: -403px;
+    margin-left: 750px;
+    
+    height: 400px;
+    width: 320px;
+    opacity: 0.75;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    background-color: aquamarine; 
+}
+
+.container3 {
+    display: flex;
+    text-indent: 90px;
+    font-size: 20px;
+    text-align:right;
+    margin-top: 45px;
+    margin-left: 400px;
+    height: 400px;
+    width: 1020px;
+    opacity: 0.75;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    background-color: aquamarine;  
+}
+
+
+.container4 {
+    display: flex;
+    text-indent: 100px;
+    margin-top: -850px;
+    margin-left: 1100px;
+    height: 400px;
+    width: 320px;
+    opacity: 0.75;
+    border: 1px solid var(--react);
+    border-radius: 15px;
+    background-color: aquamarine; 
+}
+
+.menubar {
+    display: flex;
+    text-indent: 40px;
+    margin-top: -400px;
+    margin-right: 900px;
+    margin-left: 40px;
+    height: 700px;
+    width: 300px;
+    border: 1px solid var(--react);
+
+background-color: aquamarine; 
+    border-radius: 20px;
+}
+
+.list{
+    display: block;
+    margin-top: 100px;
+    margin-left: -150px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.list2{
+    display: block;
+    margin-top: 100px;
+    margin-left: -280px;
+    list-style-type: none;
+    text-align: center;
+    font-size: x-large;
+}

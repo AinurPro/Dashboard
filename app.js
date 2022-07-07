@@ -1,98 +1,103 @@
 const Header = () => {
-    return (
-        <h1 className="header">Commence Dashboard Creation!</h1>
+    return(
+        <div className = "header">
+            <h1>Robotics Analytics Dashboard</h1>
+        </div>
+
+    )     
+};
+
+const Reviews = () => {
+    return(
+        <div className = "container">
+            <h2>Reviews</h2>
+            <p className = "para">lorem ipsum</p>
+        </div>
+    )
+};
+
+const AverageRating = () => {
+    return(
+        <div className = "container2">
+            <h2>Most Popular Models</h2>
+            <ul className = "list2">
+                <li>The Ainur 2.0</li>
+                <li>The Marcus 5.0</li>
+                <li>The Donovan 10.0</li>
+            </ul>
+        </div>
+    )
+};
+
+const WebsiteVisitors = () => {
+    return(
+        <div className = "container3">
+            <h2>Clients visits Statistics</h2>
+            <ul>
+                <li>123</li>
+                <li>321</li>
+                <li>987</li>
+            </ul>
+            </div>
     )
 }
 
-const Sidebar = () => {
-    return (
-        <div className="revratsen">
-            <ul>
+const Menu = () => {
+    return(
+        <div className = "menubar">
+            <h2>Menu</h2>
+            <ul className = "list">
                 <li>Dashboard</li>
                 <br></br>
-                <li>Reviews</li>
                 <br></br>
-                <li>Widget</li>
+                <li>Production</li>
                 <br></br>
-                <li>Customers</li>
                 <br></br>
-                <li>Online Analysis</li>
+                <li>Quality analysis</li>
                 <br></br>
-                <li>Settings</li>
+                <br></br>
+                <li>Clients</li>
+                <br></br>
+                <br></br>
+                <li>Followers</li>
+                <br></br>
+                <br></br>
+                <li>Bonus</li>
             </ul>
-
         </div>
     )
-}
-const Reviews = () => {
-    return (
-        <div className="revratsen" id="reviews">
-            <h3>Reviews</h3>
-            <h2>1,281</h2>
-        </div>
-    )
-}
+};
 
-const Averagerating =() => {
-    return (
-        <div className="revratsen">
-        <h3>Average Rating</h3>
-        <h2>4.6</h2>
-        </div>
-       
-    )
-}
-
-const Sentimentanalysis = () => {
-    return (
-        <div className="revratsen">
-            <h3>Sentiment Analysis</h3>
-            <ul>
-                <li>960</li>
+const Analyis = () => {
+    return(
+        <div className = "container4">
+            <h2>Robotics Analysis</h2>
+            <ul className = "list2">
+                <li>Parts: 120</li>
                 <br></br>
-                <li>122</li>
+                <li>Engine: 120</li>
                 <br></br>
-                <li>321</li>
+                <li>Tasks: 17</li>
                 <br></br>
+                <li>Malfunctions: 26</li>
             </ul>
         </div>
     )
 }
 
-const Rectangular = () => {
-    return (
-        <div className="rectangular">
-<h6>empty</h6>
-        </div>
-    )
-}
-const Websitevisitors = () => {
-    return (
-        <div className="webvisit">
-            <h3>Website Visitors</h3>
-            <h2>821</h2>
-            <Rectangular />
-        </div>
-    )
-}
-
-
-
-// App component
 class App extends React.Component {
     render() {
         return(
-          
-            <div className="container">
+            <div>
                 <Header />
-                <Sidebar />
                 <Reviews />
-                <Averagerating />
-                <Sentimentanalysis />
-                <Websitevisitors />
+                <AverageRating />
+                <WebsiteVisitors />
+                <Analyis />
+                <Menu />
             </div>
         )
     }
-}
+};
 
-ReactDOM.render(<App/>, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))
